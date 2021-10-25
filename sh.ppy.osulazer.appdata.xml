@@ -2,7 +2,7 @@
 <component type="desktop">
     <id>sh.ppy.osulazer</id>
     <name>osu!lazer</name>
-    <metadata_license>MIT</metadata_license>
+    <metadata_license>CC0-1.0</metadata_license>
     <summary>Open source free-to-win rhythm game</summary>
     <summary xml:lang="ru">Популярная ритм-игра с открытым исходным кодом</summary>
     <description><p>Open source rhythm game written in C# and inspired by other games, including Osu! Tatakae! Ouendan, Taiko no Tatsujin, Happy Feet, Beatmania IIDX, etc.</p></description>
