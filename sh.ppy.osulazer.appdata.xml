@@ -8,6 +8,17 @@
     <description><p>Open source rhythm game written in C# and inspired by other games, including Osu! Tatakae! Ouendan, Taiko no Tatsujin, Happy Feet, Beatmania IIDX, etc.</p></description>
     <description xml:lang="ru"><p>Бесплатная популярная ритм-игра с открытым исходным кодом написанная на C# и вдохнавлённая такими играми как: Osu! Tatakae! Ouendan, Elite Beat Agents, Taiko no Tatsujin, Beatmania IIDX и другими.</p></description>
     <url type="homepage">https://osu.ppy.sh</url>
+    <categories>
+        <category>Game</category>
+    </categories>
+    <mimetypes>
+        <mimetype>application/x-osu-lazer-beatmap</mimetype>
+        <mimetype>application/x-osu-lazer-skin</mimetype>
+    </mimetypes>
+    <provides>
+        <mediatype>application/x-osu-lazer-beatmap</mediatype>
+        <mediatype>application/x-osu-lazer-skin</mediatype>
+    </provides>
     <screenshots>
         <screenshot type="default">
             <caption>Main screen</caption>
