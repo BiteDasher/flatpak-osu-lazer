@@ -19,6 +19,8 @@ modules:
   - name: osu-lazer
     buildsystem: simple
     build-commands:
+      # Due to Stripping trailing CRs and UTF-8, it is necessary to run patch with the --binary argument
+      - patch -p1 --binary < updater.patch
       - dotnet publish osu.Desktop --source ./nuget-sources --framework net5.0 --configuration Release --runtime $RUNTIME --self-contained false --output /app/opt/ppy/osu-lazer /property:Version=2021.1016.0
       - install.sh
       - install -D -m 755 osu-lazer /app/bin/osu-lazer
@@ -62,5 +64,7 @@ modules:
         path: x-osu.xml
       - type: file
         path: sh.ppy.osulazer.appdata.xml
-      - type: patch
+     # See build-commands
+     #- type: patch
+      - type: file
         path: updater.patch
