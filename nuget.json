@@ -827,10 +827,10 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.extensions.objectpool/5.0.10/microsoft.extensions.objectpool.5.0.10.nupkg",
-        "sha512": "39338a366fb42172d4c25a2e1a30c8698166a179119ce85eb53a979baac6576d2c99af9f0fb39ac6fc193d1133bf9cb72b652293ca82f19b69fb4d341de5b94f",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.extensions.objectpool/5.0.11/microsoft.extensions.objectpool.5.0.11.nupkg",
+        "sha512": "1c1bdc3b7124e0dd33e20c285d001177a22b1b64a80517d9eb09d502f443f21a46012f7b003a10f0344498448074f8833401c35122267ed928cb7a24727f1150",
         "dest": "nuget-sources",
-        "dest-filename": "microsoft.extensions.objectpool.5.0.10.nupkg"
+        "dest-filename": "microsoft.extensions.objectpool.5.0.11.nupkg"
     },
     {
         "type": "file",
@@ -1107,10 +1107,10 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/ppy.osu.framework/2021.1014.0/ppy.osu.framework.2021.1014.0.nupkg",
-        "sha512": "7440a42b980cec290d7e8d0f28cfc0001226f7e4b3cdb94ed8d6cc73d7e42b43b3672593e102fa769287d605c5722f044f2d0a887725e8b9150c5966450f3167",
+        "url": "https://api.nuget.org/v3-flatcontainer/ppy.osu.framework/2021.1026.0/ppy.osu.framework.2021.1026.0.nupkg",
+        "sha512": "2e9540d930d7c8f681bd9a7533f714133c45a31b1418840a47722b08837677d9f3000b1722e5b59191e2964236595e8680d0f0cf7b0fda80a7fa185eea3686d3",
         "dest": "nuget-sources",
-        "dest-filename": "ppy.osu.framework.2021.1014.0.nupkg"
+        "dest-filename": "ppy.osu.framework.2021.1026.0.nupkg"
     },
     {
         "type": "file",
@@ -1121,10 +1121,10 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/ppy.osu.game.resources/2021.1015.0/ppy.osu.game.resources.2021.1015.0.nupkg",
-        "sha512": "2d3791dc48343079eb923a6d8a35c4596815d836d18e19e04e09f14f38915d418dad6bd81cdf981058f60937c5897226e089f82fb90c2ff803f79e180a5e9ab5",
+        "url": "https://api.nuget.org/v3-flatcontainer/ppy.osu.game.resources/2021.1026.0/ppy.osu.game.resources.2021.1026.0.nupkg",
+        "sha512": "1ae1c7970f30d990c32cff1d0b446cd2c1477993bad182db668a39043a44e50f3a4051c35ae479c17a15c9c72c2658b32e679a66813b6b09c8ec5b48be8b6849",
         "dest": "nuget-sources",
-        "dest-filename": "ppy.osu.game.resources.2021.1015.0.nupkg"
+        "dest-filename": "ppy.osu.game.resources.2021.1026.0.nupkg"
     },
     {
         "type": "file",
@@ -1135,10 +1135,10 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/ppy.sdl2-cs/1.0.452-alpha/ppy.sdl2-cs.1.0.452-alpha.nupkg",
-        "sha512": "6e3456e9fcc8f3133fd802ce6094f585b70e8f6f7f8fe7433cf2f025f9099316706914b225c9677636ba4d69ed9d403dd4de6a4d85ebdd1d90bb98b6c2f8564d",
+        "url": "https://api.nuget.org/v3-flatcontainer/ppy.sdl2-cs/1.0.468-alpha/ppy.sdl2-cs.1.0.468-alpha.nupkg",
+        "sha512": "8a1ba25977c18d5fd993cb185e7f3827d53d1d61f39c90313c38bc9f7866328efaa0955ceca1974b9f89a234642f2f364373de9bc494d8cb9970e0bc349b8104",
         "dest": "nuget-sources",
-        "dest-filename": "ppy.sdl2-cs.1.0.452-alpha.nupkg"
+        "dest-filename": "ppy.sdl2-cs.1.0.468-alpha.nupkg"
     },
     {
         "type": "file",
