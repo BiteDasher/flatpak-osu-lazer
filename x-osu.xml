@@ -5,13 +5,13 @@
   <comment xml:lang="hk">osu! 譜面</comment>
   <comment xml:lang="zh">osu! 谱面</comment>
   <comment xml:lang="ru">Карта osu!</comment>
-  <icon name="sh.ppy.osulazer"/>
+  <icon name="com.github.bitedasher.osulazer"/>
   <glob pattern="*.osz"/>
 </mime-type>
 <mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="application/x-osu-skin">
   <sub-class-of type="application/zip"/>
   <comment>osu! Skin</comment>
   <comment xml:lang="ru">Скин osu!</comment>
-  <icon name="sh.ppy.osulazer"/>
+  <icon name="com.github.bitedasher.osulazer"/>
   <glob pattern="*.osk"/>
 </mime-type>
