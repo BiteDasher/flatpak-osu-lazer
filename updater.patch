@@ -1,5 +1,3 @@
-diff --git a/osu.Game/Configuration/OsuConfigManager.cs b/osu.Game/Configuration/OsuConfigManager.cs
-index 9b0d7f51da..4ccbff5365 100644
 --- a/osu.Game/Configuration/OsuConfigManager.cs
 +++ b/osu.Game/Configuration/OsuConfigManager.cs
 @@ -116,7 +116,7 @@ protected override void InitialiseDefaults()
@@ -11,8 +9,6 @@ index 9b0d7f51da..4ccbff5365 100644
  
              SetDefault(OsuSetting.Version, string.Empty);
  
-diff --git a/osu.Game/Configuration/ReleaseStream.cs b/osu.Game/Configuration/ReleaseStream.cs
-index ed0bee1dd8..ec3cb37a8f 100644
 --- a/osu.Game/Configuration/ReleaseStream.cs
 +++ b/osu.Game/Configuration/ReleaseStream.cs
 @@ -5,7 +5,7 @@ namespace osu.Game.Configuration
@@ -24,8 +20,6 @@ index ed0bee1dd8..ec3cb37a8f 100644
          //Stable40,
          //Beta40,
          //Stable
-diff --git a/osu.Game/OsuGameBase.cs b/osu.Game/OsuGameBase.cs
-index f6ec22a536..9f76831875 100644
 --- a/osu.Game/OsuGameBase.cs
 +++ b/osu.Game/OsuGameBase.cs
 @@ -52,7 +52,7 @@ namespace osu.Game
@@ -37,8 +31,6 @@ index f6ec22a536..9f76831875 100644
  
          public const int SAMPLE_CONCURRENCY = 6;
  
-diff --git a/osu.Game/Updater/SimpleUpdateManager.cs b/osu.Game/Updater/SimpleUpdateManager.cs
-index e0409e34df..b59f9d28c9 100644
 --- a/osu.Game/Updater/SimpleUpdateManager.cs
 +++ b/osu.Game/Updater/SimpleUpdateManager.cs
 @@ -49,6 +49,7 @@ protected override async Task<bool> PerformUpdateCheck()
@@ -66,8 +58,6 @@ index e0409e34df..b59f9d28c9 100644
                      break;
  
                  case RuntimeInfo.Platform.iOS:
-diff --git a/osu.Game/Updater/UpdateManager.cs b/osu.Game/Updater/UpdateManager.cs
-index 98ce2cb46c..20c18edffd 100644
 --- a/osu.Game/Updater/UpdateManager.cs
 +++ b/osu.Game/Updater/UpdateManager.cs
 @@ -20,7 +20,7 @@ public class UpdateManager : CompositeDrawable
