@@ -62,3 +62,5 @@ modules:
         path: x-osu.xml
       - type: file
         path: sh.ppy.osulazer.appdata.xml
+      - type: patch
+        path: updater.patch
