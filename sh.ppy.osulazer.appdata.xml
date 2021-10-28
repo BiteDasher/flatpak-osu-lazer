@@ -3,7 +3,7 @@
     <id>sh.ppy.osulazer</id>
     <name>osu!lazer</name>
     <metadata_license>CC0-1.0</metadata_license>
-    <summary>Open source free-to-win rhythm game</summary>
+    <summary>A free-to-win rhythm game. Rhythm is just a *click* away!</summary>
     <summary xml:lang="ru">Популярная ритм-игра с открытым исходным кодом</summary>
     <description><p>Open source rhythm game written in C# and inspired by other games, including Osu! Tatakae! Ouendan, Taiko no Tatsujin, Happy Feet, Beatmania IIDX, etc.</p></description>
     <description xml:lang="ru"><p>Бесплатная популярная ритм-игра с открытым исходным кодом написанная на C# и вдохнавлённая такими играми как: Osu! Tatakae! Ouendan, Elite Beat Agents, Taiko no Tatsujin, Beatmania IIDX и другими.</p></description>
@@ -12,12 +12,12 @@
         <category>Game</category>
     </categories>
     <mimetypes>
-        <mimetype>application/x-osu-lazer-beatmap</mimetype>
-        <mimetype>application/x-osu-lazer-skin</mimetype>
+        <mimetype>application/x-osu-beatmap</mimetype>
+        <mimetype>application/x-osu-skin</mimetype>
     </mimetypes>
     <provides>
-        <mediatype>application/x-osu-lazer-beatmap</mediatype>
-        <mediatype>application/x-osu-lazer-skin</mediatype>
+        <mediatype>application/x-osu-beatmap</mediatype>
+        <mediatype>application/x-osu-skin</mediatype>
     </provides>
     <screenshots>
         <screenshot type="default">

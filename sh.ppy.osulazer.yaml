@@ -19,7 +19,7 @@ modules:
   - name: osu-lazer
     buildsystem: simple
     build-commands:
-      - dotnet publish osu.Desktop --source ./nuget-sources --framework net5.0 --configuration Release --runtime $RUNTIME --self-contained false --output /app/opt/ppy/osu-lazer /property:Version=2021.1016.0-flatpak
+      - dotnet publish osu.Desktop --source ./nuget-sources --framework net5.0 --configuration Release --runtime $RUNTIME --self-contained false --output /app/opt/ppy/osu-lazer /property:Version=2021.1016.0
       - install.sh
       - install -D -m 755 osu-lazer /app/bin/osu-lazer
       - install -D -m 644 lazer-512.png /app/share/icons/hicolor/512x512/apps/sh.ppy.osulazer.png
@@ -27,7 +27,7 @@ modules:
       - install -D -m 644 lazer-128.png /app/share/icons/hicolor/128x128/apps/sh.ppy.osulazer.png
       - install -D -m 644 lazer-64.png /app/share/icons/hicolor/64x64/apps/sh.ppy.osulazer.png
       - install -D -m 644 sh.ppy.osulazer.desktop /app/share/applications/sh.ppy.osulazer.desktop
-      - install -D -m 644 x-osu-lazer.xml /app/share/mime/application/${FLATPAK_ID}.xml
+      - install -D -m 644 x-osu.xml /app/share/mime/application/${FLATPAK_ID}.xml
       - install -D -m 644 sh.ppy.osulazer.appdata.xml /app/share/metainfo/sh.ppy.osulazer.appdata.xml
     build-options:
         append-path: /usr/lib/sdk/dotnet5/bin
@@ -59,6 +59,6 @@ modules:
       - type: file
         path: sh.ppy.osulazer.desktop
       - type: file
-        path: x-osu-lazer.xml
+        path: x-osu.xml
       - type: file
         path: sh.ppy.osulazer.appdata.xml
