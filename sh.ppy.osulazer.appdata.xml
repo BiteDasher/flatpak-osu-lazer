@@ -58,7 +58,7 @@
     <project_license>MIT</project_license>
     <developer_name>ppy Pty Ltd</developer_name>
     <releases>
-        <release version="2021.1016.0" date="2021-10-16"/>
+        <release version="2021.1028.0" date="2021-10-28"/>
     </releases>
     <content_rating type="oars-1.0">
         <content_attribute id="violence-cartoon">none</content_attribute>
